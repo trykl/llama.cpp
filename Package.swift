@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 
 import PackageDescription
-
+    
 let package = Package(
     name: "llama",
     products: [
@@ -18,6 +18,6 @@ let package = Package(
                 .linkedFramework("Accelerate")
             ]
         ),
-    ],
+    ],  
     cxxLanguageStandard: .cxx11
 )
